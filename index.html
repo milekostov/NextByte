@@ -1,0 +1,342 @@
+<!--Mile Kostov, 16 September 2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NextByte provides custom online sales platforms and client communication portals for the insurance industry. With ASP.NET and MS SQL solutions, we drive innovation and streamline business operations for a seamless user experience."
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--My style sheet-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Web Developing Company | NextByte</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--Bootstrap nav bar-->
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
+      <a class="navbar-brand" href="index.html">
+        <img
+          src="images/nextbyte.png"
+          alt="Logo of NextByte, web development company"
+          class="float-start me-3 img-fluid"
+      /></a>
+
+      <!--Hamburger menu icon-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Navbar links-->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Our Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="why.html">Why NextByte?</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+
+      <!-- Carousel items/slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/SalesPlatform.png"
+            class="d-block w-100"
+            alt="Online Sales Platform Solution"
+          />
+          <div class="carousel-caption carousel-bckgrnd">
+            <h2 class="d-block fs-4 fs-md-2">Online Sales Platforms</h2>
+
+            <p class="d-none d-md-block">
+              Simplify policy selection, easy to find, compare, and purchase
+              insurance plans anytime, anywhere.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/ClientPortal.png"
+            class="d-block w-100"
+            alt="Easy communication through a clien portal"
+          />
+          <div class="carousel-caption carousel-bckgrnd">
+            <h2 class="d-block fs-4 fs-md-2">Client Communication Portals</h2>
+            <p class="d-none d-md-block">
+              For enhanced client trust and engagement, secure, user-friendly
+              portals.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/security.png"
+            class="d-block w-100"
+            alt="Traveler's Insurance"
+          />
+          <div class="carousel-caption carousel-bckgrnd">
+            <h2 class="d-block fs-4 fs-md-2">Data Security & Compliance</h2>
+            <p class="d-none d-md-block">
+              Advanced security protocols and compliance with the highest
+              industry standards.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/InfiniteBinaryUniverse.png"
+            class="d-block w-100"
+            alt="Home Insurance"
+          />
+          <div class="carousel-caption carousel-bckgrnd">
+            <h2 class="d-block fs-4 fs-md-2">"Your Vision, Realized"</h2>
+            <p class="d-none d-md-block">
+              Streamline processes, enhance engagement, and drive innovation,
+              taking your business to the next level with cutting-edge
+              technology.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls (Prev/Next) -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <main class="container fluid bg-light text-dark py-4">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1 class="display-5 custom-heading">
+            Upgrade the way you connect, engage, and grow with advanced online
+            sales and communication platforms
+          </h1>
+          <p class="lead text-start fs-4">
+            We specialize in creating custom online sales platforms and client
+            communication portals to meet your unique needs. Our solutions are
+            built to streamline processes, enhance customer experiences, and
+            drive growth—all with the security, reliability, and scalability
+            that insurers demand. Partner with us to unlock the potential of
+            digital transformation in your business.
+          </p>
+        </div>
+        <div class="container my-5">
+          <div class="row g-1">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+              <a href="product.html" class="text-decoration-none text-white">
+                <div class="card h-100 position-relative">
+                  <img
+                    src="images/ourSolutions.png"
+                    class="card-img-top"
+                    alt="About Us Image"
+                  />
+                  <div class="card-img-overlay d-flex flex-column p-3">
+                    <h1 class="card-title text-center mt-2 shadow">
+                      Our solutions
+                    </h1>
+                    <div
+                      class="flex-grow-1 d-flex align-items-end justify-content-center"
+                    >
+                      <p class="card-text mb-2 fw-bold shadow fs-3 text-center">
+                        Sales, Communication, Security&Compliance
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+              <a href="about.html" class="text-decoration-none text-white">
+                <div class="card h-100 position-relative">
+                  <img
+                    src="images/aboutUs.png"
+                    class="card-img-top"
+                    alt="About Us Image"
+                  />
+                  <div class="card-img-overlay d-flex flex-column p-3">
+                    <h1 class="card-title text-center mt-2 shadow">About Us</h1>
+                    <div
+                      class="flex-grow-1 d-flex align-items-end justify-content-center"
+                    >
+                      <p class="card-text mb-2 fw-bold shadow fs-3 text-center">
+                        Innovation, Reliability, Customer-Centricity
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+              <a href="why.html" class="text-decoration-none text-white">
+                <div class="card h-100 position-relative">
+                  <img
+                    src="images/WhyUs.png"
+                    class="card-img-top"
+                    alt="About Us Image"
+                  />
+                  <div class="card-img-overlay d-flex flex-column p-3">
+                    <h1 class="card-title text-center mt-2 shadow">Why Us</h1>
+                    <div
+                      class="flex-grow-1 d-flex align-items-end justify-content-center"
+                    >
+                      <p class="card-text mb-2 fw-bold shadow fs-3 text-center">
+                        Expertise, Scalability, Design, Support
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Footer-->
+    <footer class="text-center bg-light p-5">
+      <div class="container text-dark">
+        <p>&copy; Copyright 2024. All Rights Reserved.</p>
+        <div class="mb-2">
+          <a href="mailto:info@nextbyte.mk" class="text-dark">
+            info@nextbyte.mk
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/profile.php?id=61568309201854"
+            target="_blank"
+            class="d-inline-block me-3"
+          >
+            <img
+              src="images/Facebook_Logo_Primary.png"
+              alt="Blue Facebook logo leading to NextByte page on Facebook"
+              class="img-fluid"
+              style="width: 40px"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/nextbyte-international/"
+            target="_blank"
+            class="d-inline-block me-3"
+          >
+            <img
+              src="images/LI-In-Bug.png"
+              alt="LinkedIn logo leading to NextByte page on LinkedIn"
+              class="img-fluid"
+              style="width: 40px"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
