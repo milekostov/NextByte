@@ -10,7 +10,9 @@
 }
 
 .carousel-inner img {
-  max-height: 100vh; /* Limits the carousel height to 80% of the viewport height */
+  max-height: calc(
+    100vh - 79px
+  ); /* Limits the carousel height to 80% of the viewport height */
   object-fit: cover; /* Ensures the image covers the entire container without distortion */
 }
 
@@ -30,8 +32,8 @@
     url("../images/contact.png");
   background-size: cover;
   background-position: center;
-  min-height: 50vh;
-  max-height: 70vh;
+  min-height: 20vh;
+  max-height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
