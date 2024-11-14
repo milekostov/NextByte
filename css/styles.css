@@ -1,35 +1,24 @@
 .carousel-bckgrnd {
-  background-color: rgba(
-    28,
-    139,
-    171,
-    0.5
-  ); /* Semi-transparent version of #1c8bab */
+  background-color: rgb(28 139 171 / 0.5);
   padding: 20px;
   border-radius: 10px;
 }
-
 .carousel-inner img {
-  max-height: calc(
-    100vh - 79px
-  ); /* Limits the carousel height to 80% of the viewport height */
-  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+  max-height: calc(100vh - 79px);
+  object-fit: cover;
 }
-
 .carousel-caption {
-  bottom: 20px; /* Moves the caption a bit higher */
+  bottom: 20px;
 }
-
-/*style for hero images on the other pages*/
 .welcome2 {
-  max-width: 75%; /* Adjusted width for better readability */
-  text-align: left; /* Align text to the left for a different layout */
+  max-width: 75%;
+  text-align: left;
   margin: 0 auto;
   padding: 1.5rem;
 }
 .hero4 {
   background-image: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
-    url("../images/contact.png");
+    url(../images/contact.png);
   background-size: cover;
   background-position: center;
   min-height: 20vh;
@@ -39,69 +28,58 @@
   justify-content: center;
   padding: 2rem;
 }
-
-/*contact page styling*/
 .icon-container {
-  width: 100px; /* Fixed width for uniformity */
-  height: 100px; /* Fixed height for uniformity */
-  display: flex; /* Flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  overflow: hidden; /* Hide overflow */
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-
 .icon-container img {
-  width: 100%; /* Scale to fit container width */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: contain; /* Contain within the div */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
-
 .call {
   width: 100px;
   height: 100px;
 }
-
 .telsize {
   font-size: 60px;
   line-height: 1;
 }
-
 .shadow {
-  text-shadow: -1px -1px 0 #000, /* Top-left */ 1px -1px 0 #000,
-    /* Top-right */ -1px 1px 0 #000, /* Bottom-left */ 1px 1px 0 #000; /* Bottom-right */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
-
 .section-title {
-  font-size: 1.5rem; /* Adjust for desired heading size */
-  font-weight: 600; /* Semi-bold for emphasis */
-  margin-bottom: 0.5rem; /* Space below heading */
-  color: #002855; /* Optional: Dark blue for a professional look */
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #002855;
   display: flex;
-  align-items: center; /* Align icon and text vertically */
+  align-items: center;
 }
-
 .title-icon {
-  width: 24px; /* Adjust size of the icon as needed */
+  width: 24px;
   height: 24px;
-  margin-right: 8px; /* Space between icon and title text */
+  margin-right: 8px;
 }
-
 .section-text {
-  font-size: 1rem; /* Standard readable text size */
-  font-weight: 400; /* Normal weight for readability */
-  line-height: 1.6; /* Adds spacing between lines for readability */
-  color: #333; /* Dark gray for softer contrast */
-  margin-bottom: 1rem; /* Space below each section */
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1rem;
 }
-
-/*Style for h1 customized */
 .custom-heading {
-  font-family: "Montserrat", sans-serif; /* Modern, clean font */
-  font-weight: 700; /* Bold */
-  text-transform: uppercase; /* Make it all caps for emphasis */
-  letter-spacing: 2px; /* Add space between letters for a sleek look */
-  color: #34495e; /* Elegant dark blue */
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); /* Adds subtle depth */
-  border-bottom: 4px solid #e74c3c; /* Underline with a bold accent color */
-  padding-bottom: 10px; /* Adds some space between text and underline */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #34495e;
+  text-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
+  border-bottom: 4px solid #e74c3c;
+  padding-bottom: 10px;
 }
