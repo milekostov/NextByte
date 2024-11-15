@@ -45,6 +45,43 @@
   justify-content: center;
   padding: 2rem;
 }
+
+/*Index Page CTA banner*/
+.cta-banner {
+  width: 80%;
+  margin: 0 auto; /* Centers the banner */
+  background: linear-gradient(
+    90deg,
+    #004d99,
+    #34495e
+  ); /* Gradient background for a modern look */
+  color: white; /* White text for contrast */
+  padding: 2rem 0; /* Adds vertical spacing */
+  border-radius: 20px; /* Softens the edges */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.cta-banner a {
+  color: white; /* Ensures the button text is white */
+  text-decoration: none; /* Removes underline */
+  font-size: 2.5rem; /* Base font size for the button text */
+  font-weight: 600; /* Semi-bold text */
+  transition: transform 0.3s ease, font-weight 0.3s ease; /* Smooth hover transitions */
+}
+
+.powerBtn {
+  color: white;
+  background-color: #002855;
+}
+
+.cta-button:hover,
+.powerBtn:hover {
+  transform: scale(1.1); /* Enlarges the button slightly */
+  font-weight: 700; /* Makes the text bolder */
+  text-decoration: none; /* Ensures no underline appears */
+  color: white;
+}
+
 .icon-container {
   width: 100px;
   height: 100px;
@@ -66,10 +103,10 @@
   font-size: 60px;
   line-height: 1;
 }
-.shadow {
+/*.shadow {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-}
+}*/
 .section-title {
   font-size: 2.5rem;
   font-weight: 600;
