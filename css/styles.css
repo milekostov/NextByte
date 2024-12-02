@@ -1,1 +1,122 @@
-.carousel-caption a{text-decoration:none;color:inherit;transition:color 0.3s ease}.carousel-caption a h2,.carousel-caption a p{transition:color 0.3s ease,transform 0.3s ease}.carousel-caption a:hover h2,.carousel-caption a:hover p{color:#fff;transform:scale(1.12)}.carousel-bckgrnd{background-color:rgb(28 139 171 / .5);padding:20px;border-radius:10px}.carousel-inner img{max-height:calc(100vh - 79px);object-fit:cover}.carousel-caption{bottom:20px}.welcome2{max-width:75%;text-align:left;margin:0 auto;padding:1.5rem}.hero4{background-image:linear-gradient(rgb(0 0 0 / .5),rgb(0 0 0 / .5)),url(../images/contact.png);background-size:cover;background-position:center;min-height:20vh;max-height:40vh;display:flex;align-items:center;justify-content:center;padding:2rem}.cta-banner{width:80%;margin:0 auto;background:linear-gradient(90deg,#004d99,#34495e);color:#fff;padding:2rem 0;border-radius:20px;box-shadow:0 4px 6px rgb(0 0 0 / .1)}.cta-banner a{color:#fff;text-decoration:none;font-size:2.5rem;font-weight:600;transition:transform 0.3s ease,font-weight 0.3s ease}.powerBtn{color:#fff;background-color:#002855}.cta-button:hover,.powerBtn:hover{transform:scale(1.1);font-weight:700;text-decoration:none;color:#fff}.icon-container{width:100px;height:100px;display:flex;justify-content:center;align-items:center;overflow:hidden}.icon-container img{width:100%;height:auto;object-fit:contain}.call{width:100px;height:100px}.telsize{font-size:60px;line-height:1}.section-title{font-size:2.5rem;font-weight:600;margin-bottom:.5rem;color:#002855;display:flex;align-items:center}.title-icon{width:24px;height:24px;margin-right:8px}.section-text{font-size:1.5rem;font-weight:400;line-height:1.6;color:#333;margin-bottom:1rem}.custom-heading{font-family:"Montserrat",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:#34495e;text-shadow:3px 3px 5px rgb(0 0 0 / .2);border-bottom:4px solid #e74c3c;padding-bottom:10px}
+.carousel-caption a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+.carousel-caption a h2,
+.carousel-caption a p {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.carousel-caption a:hover h2,
+.carousel-caption a:hover p {
+  color: #fff;
+  transform: scale(1.12);
+}
+.carousel-bckgrnd {
+  background-color: rgb(28 139 171 / 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.carousel-inner img {
+  max-height: calc(100vh - 79px);
+  object-fit: cover;
+}
+.carousel-caption {
+  bottom: 20px;
+}
+.welcome2 {
+  max-width: 75%;
+  text-align: left;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+.hero4 {
+  background-image: linear-gradient(rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(../images/contact.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh;
+  max-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.cta-banner {
+  width: 80%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #004d99, #34495e);
+  color: #fff;
+  padding: 2rem 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+}
+.cta-banner a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, font-weight 0.3s ease;
+}
+.powerBtn {
+  color: #fff;
+  background-color: #002855;
+}
+.cta-button:hover,
+.powerBtn:hover {
+  transform: scale(1.1);
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}
+.icon-container {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.icon-container img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.call {
+  width: 100px;
+  height: 100px;
+}
+.telsize {
+  font-size: 60px;
+  line-height: 1;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #002855;
+  display: flex;
+  align-items: center;
+}
+.title-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+.section-text {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.custom-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #34495e;
+  text-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
+  border-bottom: 4px solid #e74c3c;
+  padding-bottom: 10px;
+}
