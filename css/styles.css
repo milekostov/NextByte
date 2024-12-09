@@ -1,3 +1,15 @@
+.text-justify {
+  text-align: justify;
+}
+
+ul.text-justify li {
+  margin-bottom: 1rem;
+}
+
+ul.text-justify li:last-child {
+  margin-bottom: 0; /* Optional: Remove space after the last item */
+}
+
 .carousel-caption a {
   text-decoration: none;
   color: inherit;
@@ -119,4 +131,14 @@
   text-shadow: 3px 3px 5px rgb(0 0 0 / 0.2);
   border-bottom: 4px solid #e74c3c;
   padding-bottom: 10px;
+}
+
+/*Spacing to the right from the icons in the product page*/
+ul.section-text li i {
+  margin-right: 1.5rem;
+}
+
+/*Text shadow to li elements in the product page*/
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
